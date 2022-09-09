@@ -1,0 +1,20 @@
+{
+  "name": "cat-image-card",
+  "version": "1.0.0",
+  "description": "Cat images merge application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Tharindu Dasun",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "joi": "^17.6.0",
+    "minimist": "^1.2.6",
+    "@mapbox/blend": "^2.0.1",
+    "node-fetch": "2.6.7",
+    "nodemon": "^2.0.19"
+  }
+}
